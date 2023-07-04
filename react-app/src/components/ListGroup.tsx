@@ -3,7 +3,8 @@ function ListGroup() {
   items = [];
 
   const getMessage = () => {
-    return items.length === 0 ? <p>No item found</p> : null;
+    // return items.length === 0 ? <p>No item found</p> : null;
+    return items.length === 0 && <p>No item found</p>;
   };
 
   return (
